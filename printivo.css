@@ -1,0 +1,418 @@
+
+body{
+    padding: 0px 10px;
+    width: 100%;
+}
+.nav1{width: 100%;padding: 7px 100px;}
+
+.nav1box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.nav1box1{
+    width: 50%;
+    display: inline-flex;
+    gap: 50px;
+
+}
+
+.nav1box1 a{
+    text-decoration: none;
+    color: #596b85;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav1box2 span{
+    color: #596b85;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav1box2 a{
+    text-decoration: none;
+    color: #55a5f2;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav1box4 {
+    padding:7px 12px;
+    border: 1px solid  #596b85;
+    border-radius: 50px ;
+}
+
+.nav1box4 span{
+    color: #596b85;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+.nav2{
+    width: 100%;
+    padding: 6px 100px;
+    background-color: #ece8d9;
+}
+
+.nav2box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav2box2 {display: flex;gap: 50px;}
+
+.nav2box2 ul{display: flex;gap: 30px;}
+
+.nav2box2 ul a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #596b85;
+    font-weight: 600;
+}
+
+#nav2box3{
+    display: flex;
+    gap: 20px;
+}
+
+
+#nav2box3 div button{
+    border: none;
+    color: #d88788;
+    background-color: transparent;
+    font-weight: 600;
+} 
+#nav2box3 div a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #596b85;
+    font-weight: 600;
+}
+
+.s1{
+    width: 100%;
+    height: auto;
+    background-color: #ece8d9;
+    margin-top: -30px;
+    padding: 50px 0px;
+}
+
+.menubutton{
+    display: none;
+    padding: 0px 100px;
+}
+
+.hero{
+    width: 100%;
+    padding: 0px 100px;
+    margin-top: 100px;
+}
+
+.herobox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.herobox1{width: 100%;}
+
+.herobox1 h1{
+    font-size: 60px;
+   font-weight: 700;
+   color: #384a62;
+   word-spacing: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.herobox1 h5{
+    font-size: 22px;
+   font-weight: 600;
+   color:#708095;
+   margin-top: 10px;
+   
+   word-spacing: px;
+}
+
+.herobox1 form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.herobox1 form label{
+    font-size: 16px;
+    font-weight: 700;
+    color:#3a4a62;
+    
+}
+
+.herobox1 form input{
+    width: 60%;
+    height: 10vh;
+    border: none;
+    border-radius: 5px;
+}
+
+.herobox2{
+    width: 50%;
+    transform: translatex(100px);
+}
+
+.herobox2 img{
+    width: 100%;
+}
+
+.searchicon{
+    position: relative;
+     right: 50px;
+}
+
+.s2{
+    display: flex;
+     align-items: center;
+     justify-content:space-between;
+     padding:0px 100px;
+     margin-top: 30px;
+     width: 100%;
+}
+
+
+
+.s2box1 h6{
+    color: #384a62;
+    font-size: 25px;
+
+}
+
+
+.s2box2 h6 a{
+    color: #db9391;
+     text-decoration: none;
+     font-size: 16px;
+}
+
+.s3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding:0px 100px;
+    margin-top: 30px;
+}
+
+.card{
+    width: 21%; 
+    border-color: whitesmoke;
+}
+
+.card-img-top{
+    height:40vh ;
+    width: 100%;
+}
+
+.card h5{
+    color: #384a77;
+     font-size: 18px;
+      font-weight: bold;
+}
+
+.card p{
+    font-weight: 600;
+     color: #7894b5;
+     font-size: 14px;
+}
+
+#span1{
+    color: #384a62;
+     font-weight: bolder;
+     font-size: 20px;
+}
+
+#span2{
+    font-weight: 500;
+     color: #7894b5;
+}
+
+.card button{
+    background-color: #d77f81; 
+    margin-top: 20px;
+    border: none;
+    padding: 5px;
+    width: 80%;
+}
+
+.s4{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding:0px 100px;
+    margin-top: 30px;
+    gap: 70px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:610px) {
+    body{padding: 0px;}
+    .nav1{width: 100%;padding:10px 20px;}
+    .nav1box{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+     
+           
+    }
+    .nav1box1{
+        display: none;
+    }
+    
+    .nav1box2 span{
+        display: none;
+    }
+
+    .s1{
+        padding: 30px 20px;
+    }
+
+    .nav2{
+        width: 100%;
+        padding: 20px;
+        position: sticky;
+        background-color: #ece8d9;
+    }
+
+    .nav2box{width: 100%;
+    padding: 0px;}
+
+    .nav2box1 img{
+        width: 70%;
+    }
+  
+
+    .nav2box2 ul{
+        display: none;
+    }
+
+    #nav2box3 div a{
+        display: none;
+    }
+
+    .hero{
+        width: 100%;
+        padding: 0px;
+        margin-top: 25px;
+    }
+
+    .herobox1{width: 100%;padding: 0px 5px;}
+
+    .menubutton{
+        display: contents;
+        margin-top: 100px;
+        
+    }
+
+    .menubutton button{
+        border: none;
+        border-radius: 5px;
+        font-size: 4vw;
+        padding: 10px 20px;
+        font-weight: 600;
+        color: #707d8e;
+        background-color: white;
+    }
+    .herobox1 h1{
+        font-size: 8vw;
+        font-weight: 550;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .herobox1 h5{ 
+        margin-top: 20px;
+        font-size: 4vw
+    }
+
+    .herobox1 form input{
+        width: 90%;
+        height: 8vh;
+        
+    }
+
+    .herobox2{
+        display: none;
+    }
+
+    .s2{
+        width: 100%;
+        padding: 0px 20px ;
+        margin-top: 50px;
+    }
+
+    .s2box1 h6{
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    .s2box2 h6 a{
+        font-size: 4vw;
+    }
+
+    .s3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 20px;
+        gap: 50px;
+    }
+   
+
+    .card{
+        width: 100%;
+    }
+
+    .card h5{
+        font-size: 4vw;
+    }
+
+    .card p{
+        font-size: 4vw;
+    }
+
+    #span1{
+        font-size: 4vw;
+    }
+    #span2{
+        font-size: 4vw;
+    }
+
+    .s4{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin-top: 30px;
+        gap: 50px;
+    }
+
+    #modal{
+        display: none;
+    }
+}
